@@ -10,10 +10,10 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.example</groupId>
-  <artifactId>filemonitoringnosql</artifactId>
+  <artifactId>storage</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>filemonitoringnosql</name>
-  <description>filemonitoringnosql</description>
+  <name>storage</name>
+  <description>storage</description>
   <url/>
   <licenses>
     <license/>
@@ -55,12 +55,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
-      <scope>runtime</scope>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-docker-compose</artifactId>
       <scope>runtime</scope>
       <optional>true</optional>
     </dependency>
